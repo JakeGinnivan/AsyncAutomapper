@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AsyncAutomapper</id>
+    <version>$version$</version>
+    <authors>Jake Ginnivan</authors>
+    <owners>Jake Ginnivan</owners>
+    <licenseUrl>https://github.com/JakeGinnivan/AsyncAutomapper/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JakeGinnivan/AsyncAutomapper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds async mapping support to automapper with a code only package</description>
+    <copyright>Copyright Jake Ginnivan 2015</copyright>
+    <tags>Automapper TPL Task Async</tags>
+    <dependencies>
+      <dependency id="Automapper" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="AsyncExtensions.cs" target="content\App_Packages\AsyncAutomapper.$version$\" />
+    <file src="AsyncTypeConverter.cs" target="content\App_Packages\AsyncAutomapper.$version$\" />
+  </files>
+</package>
